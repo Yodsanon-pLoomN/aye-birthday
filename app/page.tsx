@@ -2,7 +2,6 @@
 "use client"
 import Image from "next/image";
 import box from "../assents/box.png";
-import pic1 from "../assents/pic1.png";
 import pic2 from "../assents/Background.png";
 import { useState } from "react";
 
