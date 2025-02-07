@@ -12,8 +12,9 @@ export default function Home() {
     setOpen(open+1);
   }
   if (open == 0) {
+    
   return (
-    <div className="flex bg-[#fae8bc] h-screen w-auto justify-center ]">
+    <div className="flex bg-[#fae8bc] h-screen w-auto justify-center overflow-hidden ]">
 
       <div className="flex flex-col m-auto">
       <div onClick={opened}>
@@ -68,8 +69,8 @@ if (open == 4){
   return (
     <div className="flex bg-[#fae8bc] h-screen w-auto justify-center ">
       <div className="flex flex-col m-auto animate-fade-in-up">
-      <div className="flex justify-center flex-col m-10 text-start gap-4">
-        <h1 className="text-2xl ">สุขสันต์วันเกิดนะคั๊บ<br></br>พิอายยยยย❤️</h1>
+      <div className="flex justify-center flex-col m-10 text-start gap-4  items-center">
+        <h1 className="text-2xl max-w-48 md:max-w-md">สุขสันต์วันเกิดนะคั๊บพิอายยยยย❤️</h1>
         <Image  src={pic2} alt="box" width={250} />
         <p className="mt-5">อายุครบ 20 แล้ววว ขอให้ปีนี้มีความสุขมากๆ และขอให้มีรอยยิ้มที่น่ารักแบบนี้ตลอดไป สุขภาพแข็งแรง รักที่สุดเลยยยยยยยยย❤️🍰♡ ༘*.ﾟ🧸🎀</p>
         </div>
